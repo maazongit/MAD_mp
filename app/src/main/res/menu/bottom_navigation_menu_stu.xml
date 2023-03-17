@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1_stu"
+        android:enabled="true"
+        android:icon="@drawable/sic1"
+        android:title="@string/Home"/>
+    <item
+        android:id="@+id/page_2_stu"
+        android:enabled="true"
+        android:icon="@drawable/sic4"
+        android:title="@string/query"/>
+    <item
+        android:id="@+id/page_3_stu"
+        android:enabled="false"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/page_4_stu"
+        android:enabled="true"
+        android:icon="@drawable/sic2"
+        android:title="@string/result"/>
+    <item
+        android:id="@+id/page_5_stu"
+        android:enabled="true"
+        android:icon="@drawable/sic3"
+        android:title="@string/profile"/>
+</menu>

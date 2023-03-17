@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1_parent"
+        android:enabled="true"
+        android:icon="@drawable/pic1"
+        android:title="@string/Home"/>
+    <item
+        android:id="@+id/page_2_parent"
+        android:enabled="true"
+        android:icon="@drawable/pic2"
+        android:title="@string/query"/>
+
+    <item
+        android:id="@+id/page_4_parent"
+        android:enabled="true"
+        android:icon="@drawable/pic4"
+        android:title="@string/result"/>
+    <item
+        android:id="@+id/page_5_parent"
+        android:enabled="true"
+        android:icon="@drawable/pic3"
+        android:title="@string/profile"/>
+</menu>

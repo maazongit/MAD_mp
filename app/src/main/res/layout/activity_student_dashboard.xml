@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Dashboard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imagesliderstudent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="10"
+                app:iss_delay="1000"
+                app:iss_period="1000"
+                app:iss_title_background="@drawable/gradient">
+
+                <TextView
+                    android:id="@+id/textViewstudent1"
+                    android:layout_width="288dp"
+                    android:layout_height="113dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="98dp"
+                    android:layout_marginEnd="118dp"
+                    android:layout_marginBottom="520dp"
+                    android:text="Welcome,"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textViewstudent"
+                    android:layout_width="288dp"
+                    android:layout_height="113dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginEnd="-5dp"
+                    android:layout_marginBottom="518dp"
+                    android:text="TextView"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </com.denzcoskun.imageslider.ImageSlider>
+
+
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/stubuttonstart"
+        android:layout_width="292dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="serif"
+        android:text="Get Started"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/yellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
